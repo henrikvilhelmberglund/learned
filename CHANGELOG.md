@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 0.0.13 (2023-10-11)
+
+
+### Features:
+
+* :wrench: update .versionrc ([2bea1ce](https://github.com/henrikvilhelmberglund/learned/commit/2bea1cea689b318b9328faaa2761299ac3f5f7df))
+
+
+### Learned:
+
+* :bug: in linux file casing matters ([33133be](https://github.com/henrikvilhelmberglund/learned/commit/33133bedd82da32935345642d5e6791faa37cf24))
+
 ## [0.0.12](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/compare/v0.0.11...v0.0.12) (2023-08-18)
 
 
