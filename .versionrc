@@ -1,5 +1,41 @@
 {
-  "writerOpts": {
-    "commitsSort": false
-  }
+	"writerOpts": {
+		"commitsSort": false
+	},
+	"types": [
+		{
+			"type": "feat",
+			"section": "Features:"
+		},
+		{
+			"type": "fix",
+			"section": "Bug Fixes"
+		},
+		{
+			"type": "chore",
+			"section": "Chore: Maintenance",
+			"hidden": false
+		},
+		{
+			"type": "docs",
+			"section": "Learned:",
+			"hidden": false
+		},
+		{
+			"type": "style",
+			"hidden": false
+		},
+		{
+			"type": "refactor",
+			"hidden": false
+		},
+		{
+			"type": "perf",
+			"hidden": false
+		},
+		{
+			"type": "test",
+			"hidden": false
+		}
+	]
 }
