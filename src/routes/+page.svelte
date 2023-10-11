@@ -10,6 +10,10 @@
 
 	// let color = "blue";
 	// $: if (browser) color = localStorage.color;
+
+	export let data;
+
+	console.log(data.mds);
 </script>
 
 <main
@@ -19,12 +23,13 @@
 		<DarkModeToggle />
 	</header>
 
-	<h1 class="text-primary-900 dark:text-primary-100 text-9xl md:p-48 md:pb-0">Hello!</h1>
-	<p class="text-primary-900 dark:text-primary-100">This is the {$color} theme.</p>
-	<button class="btn-primary">A {$color} button</button>
-	<button class="btn-secondary">A {$color} secondary button</button>
-	<p class="text-primary-900 dark:text-primary-100">Now with Melt!</p>
-	<MeltAccordion />
+	<h1 class="text-primary-900 dark:text-primary-100 text-9xl md:p-48 md:pb-0">
+		Today I learned...
+	</h1>
+
+	{#each data.mds as post}
+		{@html post}
+	{/each}
 </main>
 
 <Footer />
