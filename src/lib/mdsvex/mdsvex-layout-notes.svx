@@ -11,7 +11,7 @@
 		Blockquote,
 		Li,
 		Ul,
-		// P,
+		P,
 		A,
 		Table,
 		Th,
@@ -31,7 +31,7 @@
 		Blockquote as blockquote,
 		Li as li,
 		Ul as ul,
-		// P as p,
+		P as p,
 		A as a,
 		Table as table,
 		Th as th,
@@ -65,10 +65,8 @@
       {/if}
     </div>
   </section> -->
-<section
-	class="flex w-[80vw] flex-col items-center justify-center rounded-xl bg-slate-100 p-4 pb-40 md:w-4/6 [&>*]:p-2">
-	<slot />
-</section>
+
+<slot />
 
 <style>
 </style>
