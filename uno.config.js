@@ -65,6 +65,7 @@ export default defineConfig({
 				],
 				a: "Playfair Display",
 				b: "Lora",
+				onest: [{ name: "Onest", weights: ["100", "200", "300", "400", "500", "600", "700", "800", "900"] }],
 			},
 		}),
 		presetIcons({
