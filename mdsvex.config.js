@@ -1,8 +1,11 @@
 const config = {
-	extensions: [".svelte.md", ".md", ".svx"],
+	extensions: [".svelte.md", ".svelte", ".md", ".svx"],
 
 	smartypants: {
 		dashes: "oldschool",
+	},
+	layout: {
+		notes: "src/lib/mdsvex/mdsvex-layout-notes.svx",
 	},
 
 	remarkPlugins: [],

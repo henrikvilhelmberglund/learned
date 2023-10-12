@@ -1,0 +1,74 @@
+<script context="module">
+	// import { h1 as H1, blockquote as Blockquote, li as Li, p as P} from "./components.js";
+
+	import {
+		H1,
+		H2,
+		H3,
+		H4,
+		H5,
+		H6,
+		Blockquote,
+		Li,
+		Ul,
+		// P,
+		A,
+		Table,
+		Th,
+		Td,
+		Strong,
+		Code,
+		HR,
+	} from "$lib/components/custom-elements-import.js";
+
+	export {
+		H1 as h1,
+		H2 as h2,
+		H3 as h3,
+		H4 as h4,
+		H5 as h5,
+		H6 as h6,
+		Blockquote as blockquote,
+		Li as li,
+		Ul as ul,
+		// P as p,
+		A as a,
+		Table as table,
+		Th as th,
+		Td as td,
+		Strong as strong,
+		Code as code,
+		HR as hr,
+	};
+</script>
+
+<script>
+	export let title = "Untitled";
+	export let author = "Unknown author";
+	export let authorlink = "Unknown author link";
+	export let date = "Unknown date";
+	export let layout = "unknown layout";
+</script>
+
+<!-- <section class="from-slate-200 bg-gradient-to-b to-slate-100 rounded-xl p-4 m-4">
+    <div class="flex flex-col justify-center items-center">
+      {#if title}
+        <svelte:component this={H2}>{title}</svelte:component>
+      {/if}
+    </div>
+    <div class="flex justify-end pt-4 items-center gap-1">
+      {#if date}
+        <svelte:component this={P}>Posted on {date.split("T")[0]} by</svelte:component>
+      {/if}
+      {#if author}
+        <svelte:component this={A} href="http://{authorlink}">{author}</svelte:component>
+      {/if}
+    </div>
+  </section> -->
+<section
+	class="flex w-[80vw] flex-col items-center justify-center rounded-xl bg-slate-100 p-4 pb-40 md:w-4/6 [&>*]:p-2">
+	<slot />
+</section>
+
+<style>
+</style>
