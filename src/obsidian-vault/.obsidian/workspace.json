@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "refactored/2023-10-12.hello.md",
+                "file": "refactored/2023-10-11.server-error.md",
                 "mode": "source",
                 "source": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "refactored/2023-10-12.hello.md",
+                "file": "refactored/2023-10-11.server-error.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "refactored/2023-10-12.hello.md",
+                "file": "refactored/2023-10-11.server-error.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "refactored/2023-10-12.hello.md"
+                "file": "refactored/2023-10-11.server-error.md"
               }
             }
           }
@@ -230,8 +230,9 @@
   },
   "active": "d0ad8bb925d21f5e",
   "lastOpenFiles": [
-    "refactored/Drawing_2023-10-12_17-40-46.excalidraw.md",
+    "refactored/2023-10-11.There is no DOM in React Native.md",
     "refactored/2023-10-12.hello.md",
+    "refactored/Drawing_2023-10-12_17-40-46.excalidraw.md",
     "refactored/Drawing_2023-10-12_17-40-46.excalidraw.svg",
     "refactored/2023-10-11.server-error.md",
     "2023-10-12.md",
@@ -240,7 +241,6 @@
     "Excalidraw",
     "_template.md",
     "refactored/2023-10-11.In Linux file casing matters.md",
-    "refactored/2023-10-11.There is no DOM in React Native.md",
     "In Linux file casing matters.md",
     "refactored/2023-10-12In Linux file casing matters.md",
     "refactored",
