@@ -1,3 +1,5 @@
+import relativeImages from "mdsvex-relative-images";
+
 const config = {
 	extensions: [".svelte.md", ".svelte", ".md", ".svx"],
 
@@ -8,7 +10,7 @@ const config = {
 		notes: "src/lib/mdsvex/mdsvex-layout-notes.svx",
 	},
 
-	remarkPlugins: [],
+	remarkPlugins: [relativeImages],
 	rehypePlugins: [],
 	// see https://github.com/spences10/sveltekit-mdsvex-starter-blog/blob/main/mdsvex.config.js for stuff maybe
 };
