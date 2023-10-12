@@ -1,0 +1,14 @@
+<script>
+	export let post;
+
+	let { date, content } = post;
+  // console.log(content)
+</script>
+
+<article class="bg-primary-200 rounded-md p-4">
+	<h2>{date}</h2>
+	<svelte:component this={content.default} />
+</article>
+
+<style>
+</style>
