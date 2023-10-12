@@ -1,0 +1,23 @@
+<script>
+	export let posts;
+	console.error(posts[0]);
+	const date = posts[0].date;
+	// console.log(content)
+</script>
+
+<section class="flex flex-col items-center py-12">
+	<h2 class="font-onest absolute pb-2 pt-3 text-2xl font-extralight text-primary-50">{date}</h2>
+  <hr class="h-12 w-full rounded-t-full  bg-slate-900 " />
+	<article class="flex flex-wrap border-slate-900 bg-slate-50 border border-t-0 border-solid rounded-t-none">
+		{#each posts as { content }, i}
+			<section
+			
+				class="border-primary-500 flex w-96 flex-col items-center rounded-lg rounded-t-none  bg-slate-50 p-4 [&>*]:p-2">
+				<svelte:component this={content.default} />
+			</section>
+		{/each}
+	</article>
+</section>
+
+<style>
+</style>
