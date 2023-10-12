@@ -13,7 +13,7 @@
 
 	export let data;
 
-	console.log(data.mds);
+	// console.log(data.mds);
 </script>
 
 <main
@@ -28,7 +28,8 @@
 	</h1>
 
 	{#each data.mds as post}
-		{@html post}
+		<svelte:component this={post.default} />
+		<!-- {post.default} -->
 	{/each}
 </main>
 
