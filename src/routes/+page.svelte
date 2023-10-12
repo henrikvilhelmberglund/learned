@@ -24,7 +24,7 @@
 		<DarkModeToggle />
 	</header>
 
-	<h1 class="text-primary-950 font-onest dark:text-primary-100 text-6xl font-thin md:p-8 md:pb-0">
+	<h1 class="text-primary-950 font-onest dark:text-primary-100 text-center text-4xl md:text-6xl font-thin md:p-8 md:pb-0">
 		Today I learned...
 	</h1>
 
