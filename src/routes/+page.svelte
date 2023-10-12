@@ -7,6 +7,7 @@
 	import { browser } from "$app/environment";
 	import { color } from "$lib/stores";
 	import MeltAccordion from "$lib/melt-examples/MeltAccordion.svelte";
+	import Post from "$lib/components/Post.svx";
 
 	// let color = "blue";
 	// $: if (browser) color = localStorage.color;
@@ -28,7 +29,7 @@
 	</h1>
 
 	{#each data.mds as post}
-		<svelte:component this={post.default} />
+		<Post {post} />
 		<!-- {post.default} -->
 	{/each}
 </main>
