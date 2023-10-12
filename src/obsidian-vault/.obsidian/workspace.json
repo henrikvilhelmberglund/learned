@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6836eee150b72af0",
+        "id": "5278f918945ed77f",
         "type": "tabs",
         "children": [
           {
-            "id": "2faea38b10080b21",
+            "id": "2c11b5f82c207cf3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2faea38b10080b21",
+  "active": "2c11b5f82c207cf3",
   "lastOpenFiles": [
+    "2023-10-12.md",
     "2023-10-11.md"
   ]
 }
