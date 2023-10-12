@@ -7,7 +7,7 @@
 	import { browser } from "$app/environment";
 	import { color } from "$lib/stores";
 	import MeltAccordion from "$lib/melt-examples/MeltAccordion.svelte";
-	import Post from "$lib/components/Post.svx";
+	import Posts from "$lib/components/Posts.svx";
 
 	// let color = "blue";
 	// $: if (browser) color = localStorage.color;
@@ -18,18 +18,18 @@
 </script>
 
 <main
-	class="dark:bg-primary-950 bg-primary-100 min-w-screen flex min-h-screen flex-col items-center [&>*]:m-4">
+	class="dark:bg-slate-950 bg-primary-100 min-w-screen flex min-h-screen flex-col items-center [&>*]:m-4">
 	<header>
 		<ThemeSwitcher />
 		<DarkModeToggle />
 	</header>
 
-	<h1 class="text-primary-950 font-thin font-onest dark:text-primary-100 text-6xl md:p-8 md:pb-0">
+	<h1 class="text-primary-950 font-onest dark:text-primary-100 text-6xl font-thin md:p-8 md:pb-0">
 		Today I learned...
 	</h1>
 
-	{#each data.mds as post}
-		<Post {post} />
+	{#each Object.values(data.mds).reverse() as posts}
+		<Posts {posts} />
 		<!-- {post.default} -->
 	{/each}
 </main>
