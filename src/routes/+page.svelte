@@ -18,7 +18,7 @@
 </script>
 
 <main
-	class="dark:bg-slate-950 bg-primary-100 min-w-screen flex min-h-screen flex-col items-center [&>*]:m-4">
+	class="dark:bg-slate-950 bg-primary-100 min-w-screen flex min-h-screen flex-col items-center [&>*]:my-4">
 	<header>
 		<ThemeSwitcher />
 		<DarkModeToggle />
