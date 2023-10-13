@@ -95,7 +95,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "refactored/2023-10-12.I learned Typescript.md",
+                "file": "2023-10-13.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0659e4ca06c16281",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "refactored/2023-10-13.You can write fancy quotes in Github PRscomments using the following.md",
                 "mode": "source",
                 "source": true
               }
@@ -112,7 +124,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -178,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "refactored/2023-10-12.I learned Typescript.md",
+                "file": "refactored/2023-10-13.You can write fancy quotes in Github PRscomments using the following.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "refactored/2023-10-12.I learned Typescript.md",
+                "file": "refactored/2023-10-13.You can write fancy quotes in Github PRscomments using the following.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "refactored/2023-10-12.I learned Typescript.md"
+                "file": "refactored/2023-10-13.You can write fancy quotes in Github PRscomments using the following.md"
               }
             }
           }
@@ -240,13 +252,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ad6c33c5b6047b21",
+  "active": "0659e4ca06c16281",
   "lastOpenFiles": [
-    "2023-10-12.md",
+    "refactored/Pasted-image-20231013163901.png",
+    "refactored/2023-10-13.You can write fancy quotes in Github PRscomments using the following.md",
+    "2023-10-13.md",
+    "refactored/2023-10-12.hello.md",
     "refactored/2023-10-12.I learned Typescript.md",
+    "2023-10-12.md",
     "refactored/2023-10-11.server-error.md",
     "refactored/2023-10-11.There is no DOM in React Native.md",
-    "refactored/2023-10-12.hello.md",
     "refactored/Drawing_2023-10-12_17-40-46.excalidraw.md",
     "refactored/Drawing_2023-10-12_17-40-46.excalidraw.svg",
     "Untitled.md",
