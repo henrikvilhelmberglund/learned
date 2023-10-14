@@ -68,16 +68,6 @@
             }
           },
           {
-            "id": "71c0c0a1e3bd9cae",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "refactored/Drawing_2023-10-12_17-40-46.excalidraw.svg"
-              }
-            }
-          },
-          {
             "id": "d0ad8bb925d21f5e",
             "type": "leaf",
             "state": {
@@ -107,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "refactored/2023-10-13.You can write fancy quotes in Github PRscomments using the following.md",
+                "file": "2023-10-14.md",
                 "mode": "source",
                 "source": true
               }
@@ -119,12 +109,12 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "refactored/Drawing_2023-10-12_17-40-46.excalidraw.md"
+                "file": "Drawing_2023-10-12_17-40-46.excalidraw.md"
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -174,7 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 484.5
   },
   "right": {
     "id": "4eb2c6b3efb42909",
@@ -190,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "refactored/2023-10-13.You can write fancy quotes in Github PRscomments using the following.md",
+                "file": "2023-10-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "refactored/2023-10-13.You can write fancy quotes in Github PRscomments using the following.md",
+                "file": "2023-10-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "refactored/2023-10-13.You can write fancy quotes in Github PRscomments using the following.md"
+                "file": "2023-10-14.md"
               }
             }
           }
@@ -254,17 +244,34 @@
   },
   "active": "0659e4ca06c16281",
   "lastOpenFiles": [
+    "refactored/2023-10-14.You can get your metadata from mdsvex by simply doing.svelte.md",
+    "refactored/2023-10-14.You can get your metadata from mdsvex by simply doing.md",
+    "refactored/2023-10-13.You can write fancy quotes in Github PRscomments using the following.md",
     "refactored/2023-10-12.I learned Typescript.md",
     "refactored/2023-10-12.hello.md",
     "refactored/2023-10-11.There is no DOM in React Native.md",
     "refactored/2023-10-11.server-error.md",
     "refactored/2023-10-11.In Linux file casing matters.md",
-    "refactored/2023-10-13.You can write fancy quotes in Github PRscomments using the following.md",
-    "refactored/Pasted-image-20231013163901.png",
-    "2023-10-13.md",
-    "2023-10-12.md",
-    "refactored/Drawing_2023-10-12_17-40-46.excalidraw.md",
+    "refactored/2023-10-13.You can write fancy quotes in Github PRscomments using the following.svelte.md",
     "refactored/Drawing_2023-10-12_17-40-46.excalidraw.svg",
+    "Drawing_2023-10-12_17-40-46.excalidraw.md",
+    "refactored/Drawing_2023-10-12_17-40-46.excalidraw 1.svg",
+    "2023-10-12.md",
+    "refactored/2023-10-12.I learned Typescript.svelte.md",
+    "refactored/2023-10-12.hello.svelte.md",
+    "refactored/2023-10-11.There is no DOM in React Native.svelte.md",
+    "refactored/2023-10-11.server-error.svelte.md",
+    "refactored/2023-10-11.In Linux file casing matters.svelte.md",
+    "refactored/2023-10-14.You can get your metadata from mdsvex by simply doing.svx",
+    "refactored/2023-10-13.You can write fancy quotes in Github PRscomments using the following.svx",
+    "refactored/2023-10-12.I learned Typescript.svx",
+    "refactored/2023-10-12.hello.svx",
+    "refactored/2023-10-11.There is no DOM in React Native.svx",
+    "refactored/2023-10-11.server-error.svx",
+    "refactored/2023-10-11.In Linux file casing matters.svx",
+    "2023-10-14.md",
+    "2023-10-13.md",
+    "refactored/Pasted-image-20231013163901.png",
     "Untitled.md",
     "2023-10-11.md",
     "Excalidraw",
@@ -273,8 +280,6 @@
     "refactored/2023-10-12In Linux file casing matters.md",
     "refactored",
     "2023/10/12/00_.md",
-    "2023/10/12",
-    "2023/10",
-    "2023"
+    "2023/10/12"
   ]
 }
