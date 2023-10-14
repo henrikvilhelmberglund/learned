@@ -13,7 +13,7 @@
 		"release": "commit-and-tag-version",
 		"postrelease": "git push --follow-tags origin main",
 		"deploy": "npx gh-pages -d build --dotfiles",
-    "test": "vitest"
+		"test": "vitest"
 	},
 	"devDependencies": {
 		"@iconify-json/carbon": "^1.1.21",
