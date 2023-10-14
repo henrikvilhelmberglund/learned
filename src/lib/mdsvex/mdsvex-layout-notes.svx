@@ -48,6 +48,8 @@
 	export let authorlink = "Unknown author link";
 	export let date = "Unknown date";
 	export let layout = "unknown layout";
+  export let tags = "no tags found";
+  export let link = "no link found";
 </script>
 
 <!-- <section class="from-slate-200 bg-gradient-to-b to-slate-100 rounded-xl p-4 m-4">
