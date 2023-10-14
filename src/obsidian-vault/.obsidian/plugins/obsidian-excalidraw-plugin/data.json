@@ -1,7 +1,7 @@
 {
   "folder": "/refactored",
   "embedUseExcalidrawFolder": false,
-  "templateFilePath": "Excalidraw/Template.excalidraw",
+  "templateFilePath": "Excalidraw/template.excalidraw",
   "scriptFolderPath": "Excalidraw/Scripts",
   "compress": false,
   "autosave": true,
@@ -51,7 +51,7 @@
   "exportWithTheme": true,
   "exportWithBackground": true,
   "exportPaddingSVG": 10,
-  "keepInSync": false,
+  "keepInSync": true,
   "autoexportSVG": true,
   "autoexportPNG": false,
   "autoExportLightAndDark": false,
