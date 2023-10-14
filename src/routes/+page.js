@@ -6,7 +6,10 @@ function last(array) {
 }
 
 async function importMarkdownFiles() {
-	const modules = import.meta.glob(["../obsidian-vault/refactored/*.md"]);
+	const modules = import.meta.glob([
+		"!../obsidian-vault/refactored/*.excalidraw.md",
+		"../obsidian-vault/refactored/*.md",
+	]);
 
 	let metadataImport;
 
