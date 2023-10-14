@@ -17,12 +17,7 @@
 	// console.log(data.mds);
 </script>
 
-<main
-	class="dark:bg-slate-950 bg-primary-100 min-w-screen flex min-h-screen flex-col items-center [&>*]:my-4">
-	<header>
-		<ThemeSwitcher />
-		<DarkModeToggle />
-	</header>
+
 
 	<h1 class="text-primary-950 font-onest dark:text-primary-100 text-center text-4xl md:text-6xl font-thin md:p-8 md:pb-0">
 		Today I learned...
@@ -32,7 +27,7 @@
 		<Posts {posts} />
 		<!-- {post.default} -->
 	{/each}
-</main>
+
 
 <Footer />
 
