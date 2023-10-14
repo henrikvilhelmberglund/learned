@@ -6,10 +6,7 @@ function last(array) {
 }
 
 async function importMarkdownFiles() {
-	const modules = import.meta.glob([
-		"../obsidian-vault/refactored/*.md",
-		"!../obsidian-vault/refactored/Drawing*.md",
-	]);
+	const modules = import.meta.glob(["../obsidian-vault/refactored/*.md"]);
 
 	let metadataImport;
 
@@ -17,14 +14,14 @@ async function importMarkdownFiles() {
 
 	for (let path in modules) {
 		const post = await modules[path]();
-    const metadata = post.metadata;
-    
+		const metadata = post.metadata;
+
 		const regex = /(\d{4}-\d{2}-\d{2})/;
 		const match = path.match(regex);
 		const link = last(path.split("/")).split(".md")[0];
-    metadata.link = link;
-    let date;
-    
+		metadata.link = link;
+		let date;
+
 		if (match) {
 			date = match[1];
 			if (mds[date]) {
