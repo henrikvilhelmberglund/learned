@@ -11,4 +11,12 @@ export default defineConfig({
 		}),
 		sveltekit(),
 	],
+	test: {
+		// Jest like globals
+		globals: true,
+		environment: "jsdom",
+		include: ["src/**/*.{test,spec}.js"],
+		// Extend jest-dom matchers
+		setupFiles: ["./setupTest.js"],
+	},
 });
