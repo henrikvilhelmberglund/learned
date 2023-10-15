@@ -1,3 +1,3 @@
-<ol class="w-full font-onest list-decimal pl-4">
+<ol class="font-onest w-full list-decimal pl-4">
 	<slot />
 </ol>
