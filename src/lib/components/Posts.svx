@@ -15,14 +15,16 @@
 </script>
 
 <section class="flex flex-col items-center py-12">
-  <p class="font-onest text-primary-50 absolute pb-2 pt-3 text-2xl font-extralight">{date}</p>
-	<hr class:!w-96={thisIsSlugLinkPost} class="h-12 w-full border-slate-950 rounded-t-full bg-slate-900" />
+	<p class="font-onest text-primary-50 absolute pb-2 pt-3 text-2xl font-extralight">{date}</p>
+	<hr
+		class:!w-96={thisIsSlugLinkPost}
+		class="h-12 w-full rounded-t-full border-slate-950 bg-slate-900" />
 	<article
-  class="flex flex-wrap rounded-t-none bg-slate-50 border border-t-0 border-solid border-slate-900">
+		class="flex flex-wrap rounded-t-none border border-t-0 border-solid border-slate-900 bg-slate-50">
 		{#each posts as { content, title, metadata }, i}
 			<div class="flex flex-col justify-between">
 				<section
-					class="flex h-full w-96 flex-col items-center  bg-slate-50 p-4 dark:bg-slate-950 [&>*]:p-2">
+					class="flex h-full w-96 flex-col items-center bg-slate-50 p-4 dark:bg-slate-950 [&>*]:p-2">
 					<Title href={`/post/${metadata.link}`}>{metadata.title}</Title>
 					<svelte:component this={content.default} />
 				</section>
@@ -40,7 +42,9 @@
 					{/if}
 				</aside>
 			</div>
-			{#if i !== posts.length - 1}
+			<!-- avoid ugly border when there's only 1 post -->
+			<!-- TODO improve this (can end up with post without line if it wraps) -->
+			{#if posts.length !== 1 && i !== posts.length - 1}
 				<aside class="w-[1px] bg-slate-900" />
 			{/if}
 		{/each}
