@@ -34,3 +34,5 @@ import HR from "$lib/components/custom-elements/HR.svelte";
 export { HR };
 import Img from "$lib/components/custom-elements/Img.svelte";
 export { Img };
+import Ol from "$lib/components/custom-elements/Ol.svelte";
+export { Ol };

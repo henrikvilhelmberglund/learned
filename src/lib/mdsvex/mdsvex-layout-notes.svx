@@ -20,6 +20,7 @@
 		Code,
 		HR,
 		Img,
+		Ol,
 	} from "$lib/components/custom-elements-import.js";
 
 	export {
@@ -41,6 +42,7 @@
 		Code as code,
 		HR as hr,
 		Img as img,
+		Ol as ol,
 	};
 </script>
 
@@ -50,8 +52,8 @@
 	export let authorlink = "Unknown author link";
 	export let date = "Unknown date";
 	export let layout = "unknown layout";
-  export let tags = "no tags found";
-  export let link = "no link found";
+	export let tags = "no tags found";
+	export let link = "no link found";
 </script>
 
 <!-- <section class="from-slate-200 bg-gradient-to-b to-slate-100 rounded-xl p-4 m-4">
