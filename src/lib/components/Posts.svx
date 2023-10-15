@@ -39,6 +39,8 @@
 								{/if}
 							</Tag>
 						{/each}
+            {:else}
+              <Tag/>
 					{/if}
 				</aside>
 			</div>
