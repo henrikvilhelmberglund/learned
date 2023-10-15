@@ -22,7 +22,8 @@ async function importMarkdownFiles() {
 		const regex = /(\d{4}-\d{2}-\d{2})/;
 		const match = path.match(regex);
 		let link;
-		if (path.includes(".md")) link = last(path.split("/")).split(".md")[0];
+		if (path.includes(".svelte.md")) link = last(path.split("/")).split(".svelte.md")[0];
+		else if (path.includes(".md")) link = last(path.split("/")).split(".md")[0];
 		// if (path.includes(".svx")) link = last(path.split("/")).split(".svx")[0];
 		metadata.link = link;
 		let date;

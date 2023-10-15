@@ -18,13 +18,16 @@ async function importMarkdownFiles(params) {
 	for (let path in modules) {
 		const post = await modules[path]();
 		const metadata = post.metadata;
+		if (metadata && typeof metadata === "object" && typeof metadata.tags !== "string") continue;
 		const tags = metadata.tags.split(",").map((a) => a.trim());
 
 		if (!tags.includes(params.tagName)) continue;
 
 		const regex = /(\d{4}-\d{2}-\d{2})/;
 		const match = path.match(regex);
-		const link = last(path.split("/")).split(".md")[0];
+		let link;
+		if (path.includes(".svelte.md")) link = last(path.split("/")).split(".svelte.md")[0];
+		else if (path.includes(".md")) link = last(path.split("/")).split(".md")[0];
 		metadata.link = link;
 		let date;
 

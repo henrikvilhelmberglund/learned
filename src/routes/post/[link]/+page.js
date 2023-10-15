@@ -1,6 +1,6 @@
 /** @type {import('./$types').PageLoad} */
 async function importPost(params) {
-	console.info(params);
+	// console.info(params);
 	const link = params.link;
 	const mds = {};
 
