@@ -105,9 +105,11 @@
             "id": "d1b12b9dd5ece0a5",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/template.md"
+                "file": "2023-10-15.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -178,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/template.md",
+                "file": "2023-10-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/template.md",
+                "file": "2023-10-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/template.md"
+                "file": "2023-10-15.md"
               }
             }
           }
@@ -240,14 +242,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "71edd9adb3a422bb",
+  "active": "d1b12b9dd5ece0a5",
   "lastOpenFiles": [
-    "refactored/Drawing_2023-10-12_17-40-46.excalidraw.md",
+    "refactored/2023-10-15.Testing.svelte.md.svx",
+    "refactored/2023-10-15.Testing.svelte.md",
+    "2023-10-15.md",
+    "refactored/2023-10-15.Testing .svx.md",
+    "refactored/svelte-components/Boinger.svelte",
+    "refactored/svelte-components",
+    "2023-10-14.md",
     "Excalidraw/template.md",
+    "refactored/Drawing_2023-10-12_17-40-46.excalidraw.md",
     "_template.md",
     "refactored/Drawing_2023-10-12_17-40-46.excalidraw.svg",
     "Drawing_2023-10-12_17-40-46.excalidraw.md",
-    "2023-10-14.md",
     "refactored/2023-10-14.You can get your metadata from mdsvex by simply doing.svelte.md",
     "refactored/2023-10-14.You can get your metadata from mdsvex by simply doing.md",
     "refactored/2023-10-13.You can write fancy quotes in Github PRscomments using the following.md",
@@ -273,13 +281,6 @@
     "refactored/2023-10-11.In Linux file casing matters.svx",
     "2023-10-13.md",
     "refactored/Pasted-image-20231013163901.png",
-    "Untitled.md",
-    "2023-10-11.md",
-    "Excalidraw",
-    "In Linux file casing matters.md",
-    "refactored/2023-10-12In Linux file casing matters.md",
-    "refactored",
-    "2023/10/12/00_.md",
-    "2023/10/12"
+    "Untitled.md"
   ]
 }
