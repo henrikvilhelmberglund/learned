@@ -48,12 +48,23 @@
 
 <script>
 	export let title = "Untitled";
+	title;
 	export let author = "Unknown author";
+	author;
 	export let authorlink = "Unknown author link";
+	authorlink;
 	export let date = "Unknown date";
+	date;
 	export let layout = "unknown layout";
+	layout;
 	export let tags = "no tags found";
+	tags;
 	export let link = "no link found";
+	link;
+
+	// components below
+	export let color = undefined;
+	color;
 </script>
 
 <!-- <section class="from-slate-200 bg-gradient-to-b to-slate-100 rounded-xl p-4 m-4">
