@@ -107,14 +107,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-10-15.md",
+                "file": "2023-10-14.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5b71c1619b065c8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "refactored/2023-10-15.changesets.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -180,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-10-15.md",
+                "file": "refactored/2023-10-15.changesets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-10-15.md",
+                "file": "refactored/2023-10-15.changesets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-10-15.md"
+                "file": "refactored/2023-10-15.changesets.md"
               }
             }
           }
@@ -242,15 +254,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d1b12b9dd5ece0a5",
+  "active": "5b71c1619b065c8b",
   "lastOpenFiles": [
+    "2023-10-14.md",
+    "refactored/2023-10-15.changesets.md",
+    "2023-10-15.md",
     "refactored/2023-10-15.Testing.svelte.md.svx",
     "refactored/2023-10-15.Testing.svelte.md",
-    "2023-10-15.md",
     "refactored/2023-10-15.Testing .svx.md",
     "refactored/svelte-components/Boinger.svelte",
     "refactored/svelte-components",
-    "2023-10-14.md",
     "Excalidraw/template.md",
     "refactored/Drawing_2023-10-12_17-40-46.excalidraw.md",
     "_template.md",
