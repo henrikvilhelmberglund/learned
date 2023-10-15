@@ -1,64 +1,71 @@
-
 <script>
-	import { flip } from 'svelte/animate';
-  import { crossfade, scale } from 'svelte/transition';
+	import { flip } from "svelte/animate";
+	import { crossfade, scale } from "svelte/transition";
 
-	export let color = 'pink';
+	export let color = "pink";
 
-  const [send, receive] = crossfade({fallback: scale})
+	const [send, receive] = crossfade({ fallback: scale });
 
-  let boingers = [
-		{val: 1, boinged: true},
-		{val: 2, boinged: true},
-		{val: 3, boinged: false},
-		{val: 4, boinged: true},
-		{val: 5, boinged: false}
+	let boingers = [
+		{ val: 1, boinged: true },
+		{ val: 2, boinged: true },
+		{ val: 3, boinged: false },
+		{ val: 4, boinged: true },
+		{ val: 5, boinged: false },
 	];
 
-  function toggleBoing (id){
-		const index = boingers.findIndex(v => v.val === id);
-		boingers[index].boinged = !boingers[index].boinged
+	function toggleBoing(id) {
+		const index = boingers.findIndex((v) => v.val === id);
+		boingers[index].boinged = !boingers[index].boinged;
 	}
 </script>
 
-<div class="container">
+<div class="boinger-container">
+	<div class="boingers">
+		{#each boingers.filter((v) => !v.boinged) as { val } (val)}
+			<div
+				role="presentation"
+				animate:flip
+				in:receive={{ key: val }}
+				out:send={{ key: val }}
+				style="background:{color};"
+				on:click={() => toggleBoing(val)}
+				on:keydown={() => toggleBoing(val)}>
+				{val}
+			</div>
+		{/each}
+	</div>
 
 	<div class="boingers">
-		{#each boingers.filter(v => !v.boinged) as {val} (val)}
-			<div animate:flip
-					 in:receive="{{key: val}}"
-					 out:send="{{key: val}}"
-					 style="background:{color};"
-					 on:click="{() => toggleBoing(val)}">{val}</div>
+		{#each boingers.filter((v) => v.boinged) as { val } (val)}
+			<div
+				role="presentation"
+				animate:flip
+				in:receive={{ key: val }}
+				out:send={{ key: val }}
+				style="background:{color};"
+				on:click={() => toggleBoing(val)}
+				on:keydown={() => toggleBoing(val)}>
+				{val}
+			</div>
 		{/each}
-  </div>
-
-	<div class="boingers">
-		{#each boingers.filter(v => v.boinged) as {val} (val)}
-			<div animate:flip
-					 in:receive="{{key: val}}"
-					 out:send="{{key: val}}"
-					 style="background:{color};"
-					 on:click="{() => toggleBoing(val)}">{val}</div>
-		{/each}
-  </div>
-
+	</div>
 </div>
 
 <style>
-	.container {
+	.boinger-container {
 		width: 300px;
 		height: 200px;
 		display: flex;
 		justify-content: space-between;
-  }
+	}
 
 	.boingers {
 		display: grid;
 		grid-template-rows: repeat(3, 1fr);
 		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 10px;
-  }
+	}
 
 	.boingers div {
 		width: 50px;
