@@ -143,14 +143,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "refactored/2023-10-14.widermore.md",
+                "file": "2023-10-15.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0ee955c09d525fb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "refactored/2023-10-15.test snapshots should be in alphabetical order.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -216,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "refactored/2023-10-14.widermore.md",
+                "file": "refactored/2023-10-15.test snapshots should be in alphabetical order.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "refactored/2023-10-14.widermore.md",
+                "file": "refactored/2023-10-15.test snapshots should be in alphabetical order.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -256,7 +268,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "refactored/2023-10-14.widermore.md"
+                "file": "refactored/2023-10-15.test snapshots should be in alphabetical order.md"
               }
             }
           }
@@ -278,17 +290,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "455b009ae0c21285",
+  "active": "0ee955c09d525fb1",
   "lastOpenFiles": [
+    "2023-10-15.md",
+    "refactored/2023-10-15.test snapshots should be in alphabetical order.md",
+    "refactored/2023-10-14.widermore.md",
+    "refactored/testing.svx",
     "refactored/2023-10-15/Seriously.svelte",
     "refactored/2023-10-15/Boinger.svelte",
     "refactored/2023-10-15",
     "refactored/2023-10-14.wider.md",
-    "refactored/2023-10-14.widermore.md",
     "2023-10-14.md",
     "refactored/2023-10-14.npm link.md",
     "refactored/2023-10-14.changesets.md",
-    "2023-10-15.md",
     "refactored/2023-10-15.Testing.svelte.md.svx",
     "refactored/2023-10-15.Testing.svelte.md",
     "refactored/2023-10-15.Testing .svx.md",
@@ -316,8 +330,6 @@
     "refactored/2023-10-14.You can get your metadata from mdsvex by simply doing.svx",
     "refactored/2023-10-13.You can write fancy quotes in Github PRscomments using the following.svx",
     "refactored/2023-10-12.I learned Typescript.svx",
-    "refactored/2023-10-12.hello.svx",
-    "refactored/2023-10-11.There is no DOM in React Native.svx",
     "refactored/Pasted-image-20231013163901.png"
   ]
 }
