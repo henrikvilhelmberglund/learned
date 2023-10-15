@@ -18,7 +18,7 @@
 {#each themeColors as themeColor}
 	<button
 		on:click={() => (selectedTheme = themeColor)}
-		class="mx-2 h-10 w-16 rounded p-2 text-transparent bg-{themeColor}-500" />
+		class="mx-2 h-12 w-12 rounded p-2 text-transparent bg-{themeColor}-500" />
 {/each}
 
 <style>
