@@ -278,8 +278,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "71edd9adb3a422bb",
+  "active": "455b009ae0c21285",
   "lastOpenFiles": [
+    "refactored/2023-10-15/Seriously.svelte",
+    "refactored/2023-10-15/Boinger.svelte",
+    "refactored/2023-10-15",
     "refactored/2023-10-14.wider.md",
     "refactored/2023-10-14.widermore.md",
     "2023-10-14.md",
@@ -310,14 +313,11 @@
     "refactored/2023-10-12.I learned Typescript.svelte.md",
     "refactored/2023-10-12.hello.svelte.md",
     "refactored/2023-10-11.There is no DOM in React Native.svelte.md",
-    "refactored/2023-10-11.server-error.svelte.md",
     "refactored/2023-10-14.You can get your metadata from mdsvex by simply doing.svx",
     "refactored/2023-10-13.You can write fancy quotes in Github PRscomments using the following.svx",
     "refactored/2023-10-12.I learned Typescript.svx",
     "refactored/2023-10-12.hello.svx",
     "refactored/2023-10-11.There is no DOM in React Native.svx",
-    "refactored/2023-10-11.server-error.svx",
-    "refactored/2023-10-11.In Linux file casing matters.svx",
     "refactored/Pasted-image-20231013163901.png"
   ]
 }
