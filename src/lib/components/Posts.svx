@@ -27,15 +27,17 @@
 					<svelte:component this={content.default} />
 				</section>
 				<aside class="flex bg-slate-900">
-					{#each metadata.tags.split(",") as tag, i}
-						<Tag href={`/tag/${tag.trim()}`}>
-							{#if i === metadata.tags.split(",").length - 1}
-								{tag}
-							{:else}
-								{tag},
-							{/if}
-						</Tag>
-					{/each}
+					{#if metadata.tags}
+						{#each metadata.tags.split(",") as tag, i}
+							<Tag href={`/tag/${tag.trim()}`}>
+								{#if i === metadata.tags.split(",").length - 1}
+									{tag}
+								{:else}
+									{tag},
+								{/if}
+							</Tag>
+						{/each}
+					{/if}
 				</aside>
 			</div>
 		{/each}
