@@ -32,3 +32,5 @@ import Code from "$lib/components/custom-elements/Code.svelte";
 export { Code };
 import HR from "$lib/components/custom-elements/HR.svelte";
 export { HR };
+import Img from "$lib/components/custom-elements/Img.svelte";
+export { Img };
