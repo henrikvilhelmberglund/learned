@@ -1,3 +1,3 @@
-<li class="text-1xl list-inside list-none font-sans font-medium text-pink-700">
+<li class="w-full font-onest self-start text-primary-950 dark:text-primary-300 text-lg font-light ">
 	<slot />
 </li>
