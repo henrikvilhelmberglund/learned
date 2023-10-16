@@ -15,7 +15,7 @@
 </script>
 
 <section class="flex flex-col items-center py-12">
-	<p class="font-onest text-primary-950 absolute pb-2 pt-3 text-2xl font-extralight">{date}</p>
+	<p class="font-onest text-primary-950 dark:text-primary-300 absolute pb-2 pt-3 text-2xl font-extralight">{date}</p>
 	<hr
 		class:!w-96={thisIsSlugLinkPost}
 		class="h-12 w-full rounded-t-full border-slate-950 bg-primary-400 dark:bg-primary-950" />
