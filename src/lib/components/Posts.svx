@@ -47,7 +47,7 @@
 			<!-- avoid ugly border when there's only 1 post -->
 			<!-- TODO improve this (can end up with post without line if it wraps) -->
 			{#if posts.length !== 1 && i !== posts.length - 1}
-				<aside class="w-[1px] bg-slate-900" />
+				<aside class="w-[1px] bg-slate-900 dark:bg-primary-950" />
 			{/if}
 		{/each}
 	</article>
