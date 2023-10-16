@@ -6,7 +6,7 @@ import { createSafeList } from "./safelist.js";
 import { themes } from "./src/lib/theme/theme.js";
 import presetTheme from "unocss-preset-theme";
 
-export const reloadMe = true;
+// export const reloadMe = true;
 
 export default defineConfig({
 	variants: [
