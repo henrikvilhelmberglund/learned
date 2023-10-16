@@ -1,4 +1,14 @@
-<div><slot /></div>
+<script>
+	let count = 0;
+</script>
+
+<div>
+	<button
+		on:click={() => (count += 1)}
+		class="text-primary-50 bg-primary-500 absolute -top-2 right-0 rounded-md p-2 px-6"
+		>{count}</button
+	><slot />
+</div>
 
 <style>
 	div {
