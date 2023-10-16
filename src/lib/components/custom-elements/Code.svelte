@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<code class="bg-slate-900 text-white/80 p-2 py-1 rounded">
+<code class="bg-primary-950 rounded p-2 py-1 text-white/80">
 	<slot />
 </code>
 

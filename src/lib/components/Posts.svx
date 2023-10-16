@@ -15,20 +15,20 @@
 </script>
 
 <section class="flex flex-col items-center py-12">
-	<p class="font-onest text-primary-50 absolute pb-2 pt-3 text-2xl font-extralight">{date}</p>
+	<p class="font-onest text-primary-950 absolute pb-2 pt-3 text-2xl font-extralight">{date}</p>
 	<hr
 		class:!w-96={thisIsSlugLinkPost}
-		class="h-12 w-full rounded-t-full border-slate-950 bg-slate-900" />
+		class="h-12 w-full rounded-t-full border-slate-950 bg-primary-400 dark:bg-primary-950" />
 	<article
-		class="flex flex-wrap rounded-t-none border border-t-0 border-solid border-slate-900 bg-slate-50">
+		class="flex flex-wrap rounded-t-none border border-t-0 border-solid dark:bg-black border-slate-900 bg-slate-50">
 		{#each posts as { content, title, metadata }, i}
 			<div class="flex flex-col justify-between">
 				<section
-					class="flex h-full w-96 flex-col items-center bg-slate-50 p-4 dark:bg-slate-950 [&>*]:p-2">
+					class="flex h-full w-96 flex-col items-center bg-primary-50 p-4 dark:bg-primary-950/60 [&>*]:p-2">
 					<Title href={`/post/${metadata.link}`}>{metadata.title}</Title>
 					<svelte:component this={content.default} />
 				</section>
-				<aside class="flex bg-slate-900">
+				<aside class="flex bg-primary-400 dark:bg-primary-950">
 					{#if metadata.tags}
 						{#each metadata.tags.split(",") as tag, i}
 							<Tag href={`/tag/${tag.trim()}`}>

@@ -3,6 +3,6 @@
 	export let rel = undefined;
 </script>
 
-<a {rel} class="text-1xl font-sans font-medium text-pink-700 underline" {href}>
+<a {rel} class="text-1xl font-sans font-semibold text-primary-800 dark:text-primary-400 underline" {href}>
 	<slot />
 </a>
