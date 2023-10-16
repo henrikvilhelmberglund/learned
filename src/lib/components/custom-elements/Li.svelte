@@ -1,3 +1,4 @@
-<li class="w-full font-onest self-start list-inside py-2 text-primary-950 dark:text-primary-200 text-lg font-light ">
+<li
+	class="font-onest text-primary-950 dark:text-primary-200 w-full list-inside self-start py-2 text-lg font-light">
 	<slot />
 </li>

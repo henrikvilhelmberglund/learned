@@ -2,6 +2,7 @@
 	export let _class = "";
 </script>
 
-<p class="w-full font-onest self-start text-primary-950 dark:text-primary-200 text-lg font-light {_class}">
+<p
+	class="font-onest text-primary-950 dark:text-primary-200 w-full self-start text-lg font-light {_class}">
 	<slot />
 </p>
