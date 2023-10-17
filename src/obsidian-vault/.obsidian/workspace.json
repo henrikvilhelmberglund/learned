@@ -155,26 +155,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-10-16.md",
+                "file": "2023-10-17.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "1413252e412281a7",
+            "id": "09a41505412a9dbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "refactored/2023-10-16.Tailwindextension.md",
+                "file": "2023-10-17.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "40ebb05051a4d276",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-10-17.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a9ad6fb85517ce5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "refactored/2023-10-17.Typescript variables.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -203,7 +227,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -240,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "refactored/2023-10-16.Tailwindextension.md",
+                "file": "refactored/2023-10-17.Typescript variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "refactored/2023-10-16.Tailwindextension.md",
+                "file": "refactored/2023-10-17.Typescript variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "refactored/2023-10-16.Tailwindextension.md"
+                "file": "refactored/2023-10-17.Typescript variables.md"
               }
             }
           }
@@ -302,11 +326,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1413252e412281a7",
+  "active": "a9ad6fb85517ce5c",
   "lastOpenFiles": [
-    "2023-10-16.md",
+    "refactored/2023-10-17.Typescript type casting.md",
+    "refactored/2023-10-17.Typescript variables.md",
+    "refactored/2023-10-17.Vercel CORS.md",
     "refactored/2023-10-16.Tailwindextension.md",
+    "refactored/2023-10-15.Testing.svelte.md",
     "refactored/2023-10-15.test snapshots should be in alphabetical order.md",
+    "2023-10-17.md",
+    "2023-10-16.md",
     "2023-10-15.md",
     "refactored/2023-10-14.widermore.md",
     "refactored/testing.svx",
@@ -318,7 +347,6 @@
     "refactored/2023-10-14.npm link.md",
     "refactored/2023-10-14.changesets.md",
     "refactored/2023-10-15.Testing.svelte.md.svx",
-    "refactored/2023-10-15.Testing.svelte.md",
     "refactored/2023-10-15.Testing .svx.md",
     "refactored/svelte-components/Boinger.svelte",
     "refactored/svelte-components",
@@ -334,11 +362,7 @@
     "refactored/2023-10-12.hello.md",
     "refactored/2023-10-11.There is no DOM in React Native.md",
     "refactored/2023-10-11.server-error.md",
-    "refactored/2023-10-11.In Linux file casing matters.md",
-    "refactored/2023-10-13.You can write fancy quotes in Github PRscomments using the following.svelte.md",
     "refactored/Drawing_2023-10-12_17-40-46.excalidraw 1.svg",
-    "2023-10-12.md",
-    "refactored/2023-10-12.I learned Typescript.svelte.md",
     "refactored/2023-10-14.You can get your metadata from mdsvex by simply doing.svx",
     "refactored/2023-10-13.You can write fancy quotes in Github PRscomments using the following.svx",
     "refactored/2023-10-12.I learned Typescript.svx",
