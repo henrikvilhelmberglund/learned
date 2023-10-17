@@ -2,7 +2,18 @@
 import console from "hvb-console";
 
 function last(array) {
+	console.log(array);
 	return array[array.length - 1];
+}
+
+async function importTodo() {
+	let todo;
+	const todoImport = import.meta.glob("../lib/-learned.todo", { as: "raw", eager: true });
+	console.log(todoImport);
+	for (let path in todoImport) {
+		todo = await todoImport[path];
+	}
+	return todo;
 }
 
 async function importMarkdownFiles() {
@@ -22,9 +33,17 @@ async function importMarkdownFiles() {
 		const regex = /(\d{4}-\d{2}-\d{2})/;
 		const match = path.match(regex);
 		let link;
+		console.log("current file", path);
 		if (path.includes(".md")) link = last(path.split("/")).split(".md")[0];
+		// else console.log("error:", link)
 		// if (path.includes(".svx")) link = last(path.split("/")).split(".svx")[0];
-		metadata.link = link;
+		try {
+			metadata.link = link;
+		} catch (error) {
+			console.error("error in" + path);
+			console.error("link is " + link);
+			console.error(error);
+		}
 		let date;
 
 		if (match) {
@@ -42,7 +61,9 @@ async function importMarkdownFiles() {
 
 export async function load() {
 	const mds = await importMarkdownFiles();
+	const todo = await importTodo();
 	return {
 		mds: mds,
+		todo: todo,
 	};
 }
