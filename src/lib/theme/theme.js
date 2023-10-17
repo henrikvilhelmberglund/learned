@@ -58,7 +58,7 @@ export function createThemes(objects) {
 
 		const output = {};
 		output[name] = { colors };
-		console.log(colors);
+		// console.log(colors);
 
 		return output;
 	}
