@@ -191,14 +191,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "refactored/2023-10-17.Typescript variables.md",
+                "file": "2023-10-18.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5ac39360be93bdcb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "refactored/2023-10-18.Typescript project conversion.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -264,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "refactored/2023-10-17.Typescript variables.md",
+                "file": "refactored/2023-10-18.Typescript project conversion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "refactored/2023-10-17.Typescript variables.md",
+                "file": "refactored/2023-10-18.Typescript project conversion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +316,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "refactored/2023-10-17.Typescript variables.md"
+                "file": "refactored/2023-10-18.Typescript project conversion.md"
               }
             }
           }
@@ -326,10 +338,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a9ad6fb85517ce5c",
+  "active": "5ac39360be93bdcb",
   "lastOpenFiles": [
-    "refactored/2023-10-17.Typescript type casting.md",
+    "2023-10-18.md",
+    "refactored/2023-10-18.Typescript project conversion.md",
     "refactored/2023-10-17.Typescript variables.md",
+    "refactored/2023-10-17.Typescript type casting.md",
     "refactored/2023-10-17.Vercel CORS.md",
     "refactored/2023-10-16.Tailwindextension.md",
     "refactored/2023-10-15.Testing.svelte.md",
@@ -360,8 +374,6 @@
     "refactored/2023-10-13.You can write fancy quotes in Github PRscomments using the following.md",
     "refactored/2023-10-12.I learned Typescript.md",
     "refactored/2023-10-12.hello.md",
-    "refactored/2023-10-11.There is no DOM in React Native.md",
-    "refactored/2023-10-11.server-error.md",
     "refactored/Drawing_2023-10-12_17-40-46.excalidraw 1.svg",
     "refactored/2023-10-14.You can get your metadata from mdsvex by simply doing.svx",
     "refactored/2023-10-13.You can write fancy quotes in Github PRscomments using the following.svx",
