@@ -37,7 +37,23 @@ export default defineConfig({
 		`font-thin font-extralight font-light font-normal font-medium font-semibold font-bold font-extrabold font-black
         btn-primary btn-secondary`,
 	],
-	theme: {},
+	theme: {
+		animation: {
+			keyframes: {
+				"in-out-custom":
+					"{from,60%,75%,90%,to{animation-timing-function:cubic-bezier(0.215,0.61,0.355,1)}0%{opacity:0;transform:translate3d(0,-1500px,0)}60%{opacity:1;transform:translate3d(0,25px,0)}75%{transform:translate3d(0,-10px,0)}90%{transform:translate3d(0,5px,0)}to{transform:translate3d(0,0,0)}}",
+			},
+			durations: {
+				"in-out-custom": "1s",
+			},
+			timingFns: {
+				"in-out-custom": "ease-in-out",
+			},
+			counts: {
+				"in-out-custom": "infinite",
+			},
+		},
+	},
 	presets: [
 		presetUno({ dark: "class" }),
 		presetForms(),
