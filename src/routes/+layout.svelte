@@ -1,7 +1,25 @@
 <script>
+	import { afterNavigate } from "$app/navigation";
+	import CopyButton from "$lib/components/CopyButton.svelte";
 	import DarkModeToggle from "$lib/theme/DarkModeToggle.svelte";
 	import ThemeSwitcher from "$lib/theme/ThemeSwitcher.svelte";
 	import "@unocss/reset/tailwind.css";
+
+	// Copy buttons on pre
+	afterNavigate(() => {
+		for (const node of document.querySelectorAll("pre > code")) {
+			console.log(node);
+			new CopyButton({
+				// use whatever Svelte component you like here
+				target: node.parentNode,
+        anchor: node,
+				props: {
+					content: node.textContent ?? "",
+				},
+        
+			});
+		}
+	});
 </script>
 
 <main
