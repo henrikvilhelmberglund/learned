@@ -1,6 +1,6 @@
 ✔ use mdsvex instead of marked for ability to use custom elements @done(23-10-12 23:42)
 ✔ make it possible to have no tags @done(23-10-15 14:33)
 ✘ add darker primary colors (960, 970, 980, 990) @cancelled(23-10-16 16:10)    (can just use /30 etc in colors instead)
-☐ make dark mode slightly less contrasty (text is a bit too bright now)
+✔ fix pre/code tags exiting the frame @done(23-10-28 17:53)
+✔ make dark mode slightly less contrasty (text is a bit too bright now) @done(23-10-28 18:04)
 ☐ fix ugliness in responsive (including flex wrapped extra lines)
-☐ fix pre/code tags exiting the frame
