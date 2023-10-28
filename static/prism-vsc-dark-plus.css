@@ -43,6 +43,7 @@ code[class*="language-"] *::selection {
 }
 
 pre[class*="language-"] {
+	width: 100%;
 	padding: 1em;
 	margin: 0.5em 0;
 	overflow: auto;
