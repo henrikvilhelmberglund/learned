@@ -35,7 +35,7 @@
 		"@unocss/svelte-scoped": "^0.53.6",
 		"@unocss/transformer-directives": "^0.52.7",
 		"commit-and-tag-version": "^11.3.0",
-		"hvb-console": "^0.0.2",
+		"hvb-console": "^0.0.4",
 		"isomorphic-dompurify": "^1.9.0",
 		"jsdom": "^22.1.0",
 		"marked": "^9.1.1",
