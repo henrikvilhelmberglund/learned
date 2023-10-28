@@ -25,7 +25,7 @@
 <div class="flex justify-end">
 	<button
 		on:click={copy}
-		class="from-primary-800 to-primary-600 hover:from-primary-700 hover:to-primary-500 relative flex h-8 px-2 items-center rounded bg-gradient-to-b">
+		class="from-primary-800 to-primary-600 hover:from-primary-700 hover:to-primary-500 relative flex h-8 px-2 items-center rounded bg-gradient-to-b dark:text-white/80">
 		<span
 			class:i-carbon-copy={state === "default"}
 			class:i-carbon-checkmark={state === "success"}
