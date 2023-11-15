@@ -8,305 +8,67 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2c11b5f82c207cf3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-11.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d9ec94670e5b3a51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-11.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "466ea764acd7bad3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-11.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "8e3500023c76395c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-11.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c9a146b7ecec09cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-12.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d0ad8bb925d21f5e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-12.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "ad6c33c5b6047b21",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-13.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "0659e4ca06c16281",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "refactored/Drawing_2023-10-12_17-40-46.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "d1b12b9dd5ece0a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-14.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5b71c1619b065c8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-14.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "cb043cad98a512d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-14.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "455b009ae0c21285",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-15.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "0ee955c09d525fb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-17.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "09a41505412a9dbc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-17.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "40ebb05051a4d276",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-17.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a9ad6fb85517ce5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-18.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5ac39360be93bdcb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "refactored/2023-10-18.Typescript project conversion.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f8235aa550252114",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-19.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e8242f73809c44da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-19.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7d7ed875c233807a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-19.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "04b2d4b232ababd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-19.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "ce32b84324579159",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-19.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e17f0864ca96bb04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-19.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "39a79ad3aa4f3efe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-24.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "44414957489f1cb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "refactored/2023-10-24.Using custom animations in UnoCSS.md",
+                "file": "2023-10-27.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "04005ec76652b9af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-10-27.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8596360e11de3841",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-10-27.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "6f1f803b6543c371",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-11-06.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d8a8572e1956ef1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "refactored/2023-11-15.Vitest - pass props to render.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -335,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:unocss",
+                "query": "vitest",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -352,12 +114,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 483.5
+    "width": 491.5
   },
   "right": {
     "id": "4eb2c6b3efb42909",
@@ -373,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "refactored/2023-10-24.Using custom animations in UnoCSS.md",
+                "file": "refactored/2023-11-15.Vitest - pass props to render.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -390,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "refactored/2023-10-24.Using custom animations in UnoCSS.md",
+                "file": "refactored/2023-11-15.Vitest - pass props to render.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -413,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "refactored/2023-10-24.Using custom animations in UnoCSS.md"
+                "file": "refactored/2023-11-15.Vitest - pass props to render.md"
               }
             }
           }
@@ -435,39 +196,39 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5747f6ac8fc07225",
+  "active": "d8a8572e1956ef1e",
   "lastOpenFiles": [
-    "2023-10-24.md",
+    "refactored/2023-11-15.Vitest - test load function data.md",
+    "refactored/2023-11-15.Vitest - pass props to render.md",
+    "2023-11-15.md",
+    "2023-11-06.md",
+    "2023-11-03.md",
+    "2023-10-27.md",
+    "refactored/2023-10-27.Webpack config per environment.md",
+    "refactored/2023-10-27.Debugging in browser.md",
+    "refactored/2023-10-27.Cache busting.md",
     "refactored/2023-10-24.Using custom animations in UnoCSS.md",
-    "refactored/2023-10-19.Four pillars of OOP.md",
     "refactored/2023-10-21.Github CLI - gh browse.md",
     "refactored/2023-10-20.Typescript - Generics.md",
     "refactored/2023-10-20.Axios response forEach.md",
-    "refactored/2023-10-19.Getting value from input using Typescript without intermediate variable.md",
-    "refactored/2023-10-19.Classes - Public, private, protected.md",
+    "2023-10-24.md",
     "2023-10-19.md",
     "2023-10-18.md",
-    "refactored/2023-10-18.Typescript project conversion.md",
-    "refactored/2023-10-17.Typescript variables.md",
-    "refactored/2023-10-17.Typescript type casting.md",
-    "refactored/2023-10-17.Vercel CORS.md",
-    "refactored/2023-10-16.Tailwindextension.md",
-    "refactored/2023-10-15.Testing.svelte.md",
-    "refactored/2023-10-15.test snapshots should be in alphabetical order.md",
     "2023-10-17.md",
     "2023-10-16.md",
     "2023-10-15.md",
-    "refactored/2023-10-14.widermore.md",
+    "2023-10-14.md",
+    "2023-10-13.md",
+    "2023-10-12.md",
+    "2023-10-11.md",
+    "2023-11-14.md",
+    "refactored/2023-10-19.Four pillars of OOP.md",
+    "refactored/2023-10-19.Getting value from input using Typescript without intermediate variable.md",
     "refactored/testing.svx",
     "refactored/2023-10-15/Seriously.svelte",
     "refactored/2023-10-15/Boinger.svelte",
     "refactored/2023-10-15",
-    "refactored/2023-10-14.wider.md",
-    "2023-10-14.md",
-    "refactored/2023-10-14.npm link.md",
-    "refactored/2023-10-14.changesets.md",
     "refactored/2023-10-15.Testing.svelte.md.svx",
-    "refactored/2023-10-15.Testing .svx.md",
     "refactored/svelte-components/Boinger.svelte",
     "refactored/svelte-components",
     "refactored/Drawing_2023-10-12_17-40-46.excalidraw.svg",
