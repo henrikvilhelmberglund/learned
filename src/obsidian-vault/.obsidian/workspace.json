@@ -61,14 +61,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "refactored/2023-11-15.Vitest - pass props to render.md",
+                "file": "2023-11-14.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e6348d95d94fe306",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "refactored/2023-11-15.Function call and bind.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "refactored/2023-11-15.Vitest - pass props to render.md",
+                "file": "refactored/2023-11-15.Function call and bind.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "refactored/2023-11-15.Vitest - pass props to render.md",
+                "file": "refactored/2023-11-15.Function call and bind.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "refactored/2023-11-15.Vitest - pass props to render.md"
+                "file": "refactored/2023-11-15.Function call and bind.md"
               }
             }
           }
@@ -196,14 +208,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d8a8572e1956ef1e",
+  "active": "e6348d95d94fe306",
   "lastOpenFiles": [
-    "refactored/2023-11-15.Vitest - test load function data.md",
-    "refactored/2023-11-15.Vitest - pass props to render.md",
+    "2023-11-14.md",
+    "refactored/2023-11-15.Function call and bind.md",
     "2023-11-15.md",
     "2023-11-06.md",
     "2023-11-03.md",
     "2023-10-27.md",
+    "2023-10-24.md",
+    "2023-10-19.md",
+    "refactored/2023-11-15.Vitest - pass props to render.md",
+    "refactored/2023-11-15.Vitest - test load function data.md",
     "refactored/2023-10-27.Webpack config per environment.md",
     "refactored/2023-10-27.Debugging in browser.md",
     "refactored/2023-10-27.Cache busting.md",
@@ -211,8 +227,6 @@
     "refactored/2023-10-21.Github CLI - gh browse.md",
     "refactored/2023-10-20.Typescript - Generics.md",
     "refactored/2023-10-20.Axios response forEach.md",
-    "2023-10-24.md",
-    "2023-10-19.md",
     "2023-10-18.md",
     "2023-10-17.md",
     "2023-10-16.md",
@@ -221,9 +235,7 @@
     "2023-10-13.md",
     "2023-10-12.md",
     "2023-10-11.md",
-    "2023-11-14.md",
     "refactored/2023-10-19.Four pillars of OOP.md",
-    "refactored/2023-10-19.Getting value from input using Typescript without intermediate variable.md",
     "refactored/testing.svx",
     "refactored/2023-10-15/Seriously.svelte",
     "refactored/2023-10-15/Boinger.svelte",
