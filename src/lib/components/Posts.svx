@@ -34,13 +34,15 @@
 				<aside class="bg-primary-400 dark:bg-primary-950 flex">
 					{#if metadata.tags}
 						{#each metadata.tags.split(",") as tag, i}
-							<Tag href={`/tag/${tag.trim()}`}>
-								{#if i === metadata.tags.split(",").length - 1}
-									{tag}
-								{:else}
-									{tag},
-								{/if}
-							</Tag>
+							{#if tag !== ""}
+								<Tag href={`/tag/${tag.trim()}`}>
+									{#if i === metadata.tags.split(",").length - 1}
+										{tag}
+									{:else}
+										{tag},
+									{/if}
+								</Tag>
+							{/if}
 						{/each}
 					{:else}
 						<Tag />
