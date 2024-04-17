@@ -5,12 +5,24 @@
         "Mod"
       ],
       "key": "ArrowDown"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowDown"
     }
   ],
   "editor:swap-line-up": [
     {
       "modifiers": [
         "Mod"
+      ],
+      "key": "ArrowUp"
+    },
+    {
+      "modifiers": [
+        "Alt"
       ],
       "key": "ArrowUp"
     }
