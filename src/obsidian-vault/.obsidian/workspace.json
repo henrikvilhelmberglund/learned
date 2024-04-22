@@ -145,7 +145,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "refactored/2024-04-17.microtask.md",
+                "file": "2024-04-22.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "6ce1c4c5ae4f39dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "refactored/2024-04-22.Typescript Record.md",
                 "mode": "source",
                 "source": true
               }
@@ -162,7 +174,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -228,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "refactored/2024-04-17.microtask.md",
+                "file": "refactored/2024-04-22.Typescript Record.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +257,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "refactored/2024-04-17.microtask.md",
+                "file": "refactored/2024-04-22.Typescript Record.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -268,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "refactored/2024-04-17.microtask.md"
+                "file": "refactored/2024-04-22.Typescript Record.md"
               }
             }
           }
@@ -290,11 +302,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9e6990056b38e5c9",
+  "active": "6ce1c4c5ae4f39dd",
   "lastOpenFiles": [
+    "2024-04-22.md",
+    "refactored/2024-04-22.Typescript Record.md",
+    "refactored/2024-04-17.microtask.md",
     "2024-04-17.md",
     "refactored/2023-11-27.React Native (expo) liveshare using tunnel.md",
-    "refactored/2024-04-17.microtask.md",
     "refactored/2023-11-30.has in TailwindUnoCSS.md",
     "file issues later.md",
     "Untitled 1.md",
@@ -316,8 +330,6 @@
     "refactored/2023-10-27.Webpack config per environment.md",
     "refactored/2023-10-27.Debugging in browser.md",
     "refactored/2023-10-27.Cache busting.md",
-    "refactored/2023-10-24.Using custom animations in UnoCSS.md",
-    "refactored/2023-10-21.Github CLI - gh browse.md",
     "refactored/testing.svx",
     "refactored/2023-10-15/Seriously.svelte",
     "refactored/2023-10-15/Boinger.svelte",
