@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Posts from "$lib/components/Posts.svx";
 
 	export let data;

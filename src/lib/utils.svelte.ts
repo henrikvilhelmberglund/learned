@@ -17,7 +17,10 @@ function is_primitive(val: any): val is Primitive {
   return val !== Object(val) || val === null;
 };
 
-function persisted<T>(key: string, initial: T) {
+export function persisted<T>(key: string, initial: T) {
+  if (typeof window === 'undefined') {
+    return;
+  }
   const existing = localStorage.getItem(key);
 
   const primitive = is_primitive(initial);

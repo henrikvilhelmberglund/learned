@@ -1,4 +1,3 @@
-// import { ref } from "$lib/utils.svelte";
-import { persisted } from "svelte-local-storage-store";
+import { ref, persisted } from "$lib/utils.svelte";
 
 export const selectedTheme = persisted("theme", "blue");
