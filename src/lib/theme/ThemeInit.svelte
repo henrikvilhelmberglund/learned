@@ -5,7 +5,7 @@
   // TODO check localstorage for saved value
 
 	$effect(() => {
-		if (selectedTheme.value) {
+		if (selectedTheme && selectedTheme.value) {
 			themeColors.forEach((theme) => {
 				document.documentElement.classList.remove(theme);
 			});
