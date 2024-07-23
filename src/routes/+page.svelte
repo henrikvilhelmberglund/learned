@@ -23,13 +23,12 @@
 	Today I learned...
 </h1>
 
-<Todo {todo} />
+<!-- <Todo {todo} /> -->
 
 <div class="py-12" />
 
 {#each Object.values(data.mds).reverse() as posts}
 	<Posts {posts} />
-	<!-- {post.default} -->
 {/each}
 
 <Footer />

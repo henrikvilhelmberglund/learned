@@ -9,7 +9,7 @@ function last(array) {
 
 async function importTodo() {
 	let todo;
-	const todoImport = import.meta.glob("../lib/-learned.todo", { as: "raw", eager: true });
+	const todoImport = import.meta.glob("../lib/-learned.todo", { query: "?raw", eager: true });
 	// console.log(todoImport);
 	for (let path in todoImport) {
 		todo = await todoImport[path];
@@ -28,7 +28,7 @@ async function importMarkdownFiles() {
 	const mds = {};
 
 	for (let path in modules) {
-		const post = await modules[path]();
+    const post = await modules[path]();
 		const metadata = post.metadata;
 
 		const regex = /(\d{4}-\d{2}-\d{2})/;
@@ -56,12 +56,12 @@ async function importMarkdownFiles() {
 			}
 			// console.warn(mds);
 		}
-	}
+  }
 	return mds;
 }
 
 export async function load() {
-	const mds = await importMarkdownFiles();
+  const mds = await importMarkdownFiles();
 	const todo = await importTodo();
 	return {
 		mds: mds,

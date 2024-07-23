@@ -1,4 +1,4 @@
-import { themeColors } from "./src/lib/theme/theme.js";
+import { themeColors } from "./src/lib/theme/theme";
 const safelistTypes = [
 	"text",
 	// "decoration",

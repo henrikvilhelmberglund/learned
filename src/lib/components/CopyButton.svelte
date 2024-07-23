@@ -1,7 +1,7 @@
 <script>
 	// slightly stolen from https://github.com/janosh/svelte-zoo/blob/fea79e01419e1eb0e11e0f167eed15c74a84ef9b/src/lib/CopyButton.svelte
 	export let content;
-	console.log(content);
+	// console.log(content);
 	let state = "default";
 
 	const labels = {

@@ -1,12 +1,12 @@
 <script>
-	export let src;
-  export let alt;
+  const {src, alt} = $props();
 </script>
 
 <div class="flex flex-col items-center">
 	<img {src} {alt} />
 </div>
-<slot />
+<!-- {@render children()} -->
 
 <style>
 </style>
+
