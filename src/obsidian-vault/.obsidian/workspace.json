@@ -157,7 +157,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "refactored/2024-04-22.Typescript Record.md",
+                "file": "2024-07-17.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "07ec816d5132115a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-07-17.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "20efcb02347cce29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "refactored/2024-07-23.Stubbing and linking packages for easier development.md",
                 "mode": "source",
                 "source": true
               }
@@ -174,7 +198,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -240,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "refactored/2024-04-22.Typescript Record.md",
+                "file": "refactored/2024-07-23.Stubbing and linking packages for easier development.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "refactored/2024-04-22.Typescript Record.md",
+                "file": "refactored/2024-07-23.Stubbing and linking packages for easier development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "refactored/2024-04-22.Typescript Record.md"
+                "file": "refactored/2024-07-23.Stubbing and linking packages for easier development.md"
               }
             }
           }
@@ -302,11 +326,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6ce1c4c5ae4f39dd",
+  "active": "20efcb02347cce29",
   "lastOpenFiles": [
-    "2024-04-22.md",
-    "refactored/2024-04-22.Typescript Record.md",
+    "2024-07-17.md",
+    "refactored/2024-07-23.Stubbing and linking packages for easier development.md",
+    "refactored/2024-07-23.Task restart using runCommands.md",
     "refactored/2024-04-17.microtask.md",
+    "refactored/2024-04-22.Typescript Record.md",
+    "2024-04-22.md",
     "2024-04-17.md",
     "refactored/2023-11-27.React Native (expo) liveshare using tunnel.md",
     "refactored/2023-11-30.has in TailwindUnoCSS.md",
@@ -327,9 +354,6 @@
     "2023-10-19.md",
     "refactored/2023-11-15.Vitest - pass props to render.md",
     "refactored/2023-11-15.Vitest - test load function data.md",
-    "refactored/2023-10-27.Webpack config per environment.md",
-    "refactored/2023-10-27.Debugging in browser.md",
-    "refactored/2023-10-27.Cache busting.md",
     "refactored/testing.svx",
     "refactored/2023-10-15/Seriously.svelte",
     "refactored/2023-10-15/Boinger.svelte",
