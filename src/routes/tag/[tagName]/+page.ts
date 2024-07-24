@@ -30,7 +30,6 @@ async function importMarkdownFiles(params: RouteParams) {
 
 	for (let path in modules) {
     const post = (await modules[path]()) as Post & { default: Component<{}, {}, "">};
-		console.log(post);
 		const metadata = post.metadata;
 		if (metadata && typeof metadata === "object" && typeof metadata.tags !== "string") continue;
 		const tags = metadata.tags.split(",").map((a) => a.trim());

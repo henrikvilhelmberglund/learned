@@ -9,7 +9,6 @@
 
 	// Copy buttons on pre
 	afterNavigate(() => {
-		console.log("ran afternavigate");
 		for (const node of document.querySelectorAll("pre > code")) {
 			if (node.parentNode) {
 				mount(CopyButton, {
