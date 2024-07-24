@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { flip } from "svelte/animate";
 	import { crossfade, scale } from "svelte/transition";
 
@@ -14,7 +14,7 @@
 		{ val: 5, boinged: false },
 	];
 
-	function toggleBoing(id) {
+	function toggleBoing(id: number) {
 		const index = boingers.findIndex((v) => v.val === id);
 		boingers[index].boinged = !boingers[index].boinged;
 	}

@@ -6,7 +6,7 @@ export function ref<Type>(initial: Type) {
 		},
 		set value(v) {
 			value = v;
-		}
+		},
 	};
 }
 
@@ -14,30 +14,30 @@ export function ref<Type>(initial: Type) {
 type Primitive = string | null | symbol | boolean | number | undefined | bigint;
 
 function is_primitive(val: any): val is Primitive {
-  return val !== Object(val) || val === null;
-};
+	return val !== Object(val) || val === null;
+}
 
 export function persisted<T>(key: string, initial: T) {
-  if (typeof window === 'undefined') {
-    return;
-  }
-  const existing = localStorage.getItem(key);
+	if (typeof window === "undefined") {
+		return;
+	}
+	const existing = localStorage.getItem(key);
 
-  const primitive = is_primitive(initial);
-  const parsed_value = existing ? JSON.parse(existing) : initial;
+	const primitive = is_primitive(initial);
+	const parsed_value = existing ? (!primitive ? JSON.parse(existing) : existing) : initial;
 
-  let state = $state<T extends Primitive ? { value: T } : T>(
-    primitive ? { value: parsed_value } : parsed_value,
-  );
+	let state = $state<T extends Primitive ? { value: T } : T>(
+		primitive ? { value: parsed_value } : parsed_value
+	);
 
-  $effect.root(() => {
-    $effect(() => {
-      // @ts-ignore
-      localStorage.setItem(key, JSON.stringify(primitive ? state.value : state));
-    });
-  });
+	$effect.root(() => {
+		$effect(() => {
+			// @ts-ignore
+			localStorage.setItem(key, primitive ? state.value : JSON.stringify(state));
+		});
+	});
 
-  return state;
+	return state;
 }
 
 // Usage:

@@ -1,8 +1,11 @@
+import type { Post } from '../../tag/[tagName]/+page.js';
+import type { RouteParams } from './$types.js';
+
 /** @type {import('./$types').PageLoad} */
-async function importPost(params) {
+async function importPost(params: RouteParams) {
 	// console.info(params);
 	const link = params.link;
-	const mds = {};
+	const mds: Record<string, Post[]> = {};
 
 	// const md = await import(path);
 	// console.log(md);

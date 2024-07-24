@@ -1,10 +1,11 @@
-<script>
+<script lang="ts">
 	import { page } from "$app/stores";
+	import type { Post } from "../../routes/tag/[tagName]/+page";
 	import H1 from "./custom-elements/H1.svelte";
 	import Tag from "./custom-elements/Tag.svelte";
 	import Title from "./custom-elements/Title.svelte";
 
-	export let posts;
+	export let posts: Post[];
 	// console.error(posts[0]);
 	const date = posts[0].date;
 	// console.log(content)
@@ -24,7 +25,7 @@
 		class="bg-primary-400 dark:bg-primary-950 h-12 w-full rounded-t-full border-slate-950"/>
 	<article
 		class="flex flex-col flex-wrap rounded-t-none border border-t-0 border-b-0 border-solid border-slate-900 bg-slate-50 dark:bg-black">
-		{#each posts as { content, title, metadata }, i}
+		{#each posts as { content, metadata }, i}
 			<div class="flex flex-col justify-between">
 				<section
 					class="bg-primary-50 dark:bg-primary-950/60 max-w-screen flex h-full w-96 lg:w-[600px] flex-col items-center p-4 [&>*]:p-2">
