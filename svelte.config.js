@@ -3,7 +3,7 @@
 // import preprocess from "svelte-preprocess";
 // import { vitePreprocess } from "@sveltejs/kit/vite";
 import adapter from "@sveltejs/adapter-static";
-import { vitePreprocess } from "@sveltejs/kit/vite";
+import preprocess from "svelte-preprocess";
 import { preprocessMeltUI } from "@melt-ui/pp";
 import sequence from "svelte-sequential-preprocessor";
 import { mdsvex } from "mdsvex";
@@ -14,7 +14,7 @@ const dev = process.argv.includes("dev");
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	extensions: [".svelte", ...mdsvexConfig.extensions],
-	preprocess: sequence([mdsvex(mdsvexConfig), vitePreprocess(), preprocessMeltUI()]),
+	preprocess: sequence([mdsvex(mdsvexConfig), preprocess]),
 	kit: {
 		adapter: adapter(),
 	},

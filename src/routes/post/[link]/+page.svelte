@@ -1,9 +1,8 @@
-<script>
+<script lang="ts">
 	import Posts from "$lib/components/Posts.svx";
 
 	export let data;
 	const posts = data.mds;
-	console.log(posts);
 </script>
 
 <!-- TODO this seems a bit stupid, but right now Posts is expected to be an array -->

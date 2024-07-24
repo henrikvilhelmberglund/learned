@@ -1,12 +1,10 @@
-<script>
-	export let src;
-  export let alt;
+<script lang="ts">
+  const {src, alt}: {src: string, alt: string} = $props();
 </script>
 
-<div class="flex flex-col items-center">
-	<img {src} {alt} />
-</div>
-<slot />
+<img class="flex flex-col items-center" {src} {alt} />
+<!-- {@render children()} -->
 
 <style>
 </style>
+
