@@ -2,9 +2,6 @@
 	import Footer from "$lib/Footer.svelte";
 	import Posts from "$lib/components/Posts.svx";
 
-	// let color = "blue";
-	// $: if (browser) color = localStorage.color;
-
 	const { data } = $props();
 
 	const todo = data.todo;

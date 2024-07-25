@@ -1,20 +1,21 @@
 <script lang="ts">
 	import { mount } from "svelte";
-	import { afterNavigate } from "$app/navigation";
 	import CopyButton from "$lib/components/CopyButton.svelte";
 	import DarkModeToggle from "$lib/theme/DarkModeToggle.svelte";
 	import ThemeInit from "$lib/theme/ThemeInit.svelte";
 	import ThemeSwitcher from "$lib/theme/ThemeSwitcher.svelte";
 	import "@unocss/reset/tailwind.css";
 
+  const { children } = $props();
+
 	// Copy buttons on pre
-	afterNavigate(() => {
+	$effect(() => {
 		for (const node of document.querySelectorAll("pre > code")) {
 			if (node.parentNode) {
 				mount(CopyButton, {
 					// use whatever Svelte component you like here
 					target: node.parentNode as HTMLElement,
-					anchor: node,
+					anchor: node.parentNode,
 					props: {
 						content: node.textContent ?? "",
 					},
@@ -31,7 +32,7 @@
 		<ThemeSwitcher />
 		<DarkModeToggle />
 	</header>
-	<slot />
+  {@render children()}
 </main>
 
 <style></style>

@@ -1,7 +1,5 @@
 <script>
-	import { browser } from "$app/environment";
 	import { base } from "$app/paths";
-	import { onMount, onDestroy } from "svelte";
 	import { fade } from "svelte/transition";
 	let show = true;
 </script>
