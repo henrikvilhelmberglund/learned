@@ -1,9 +1,7 @@
 <script>
 	import Footer from "$lib/Footer.svelte";
 	import Posts from "$lib/components/Posts.svx";
-
-	// let color = "blue";
-	// $: if (browser) color = localStorage.color;
+	import Todo from "$lib/components/Todo.svelte";
 
 	const { data } = $props();
 
@@ -15,7 +13,7 @@
 	Today I learned...
 </h1>
 
-<!-- <Todo {todo} /> -->
+<Todo {todo} />
 
 <div class="py-12"></div>
 

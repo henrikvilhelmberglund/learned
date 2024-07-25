@@ -3,18 +3,25 @@ import console from "hvb-console";
 import type { Post } from "./tag/[tagName]/+page";
 import type { Component } from "svelte";
 
+interface ModuleRawImportInterface {
+	default: string;
+}
+
 function last(array: string[]) {
 	return array[array.length - 1];
 }
 
 async function importTodo() {
 	let todo;
+	let todoText = "";
 	const todoImport = import.meta.glob("../lib/-learned.todo", { query: "?raw", eager: true });
 	// console.log(todoImport);
 	for (let path in todoImport) {
-		todo = await todoImport[path];
+		todo = (await todoImport[path]) as ModuleRawImportInterface;
+		todoText = todo.default;
 	}
-	return todo;
+
+	return todoText;
 }
 
 async function importMarkdownFiles() {

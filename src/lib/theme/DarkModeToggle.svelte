@@ -1,7 +1,6 @@
 <script lang="ts">
-	import { onMount } from "svelte";
 	let darkMode: boolean;
-	onMount(() => {
+	$effect(() => {
 		darkMode = localStorage.theme === "dark" ? true : false;
 	});
 
@@ -30,7 +29,7 @@
 </script>
 
 <button
-	on:click={() => toggle()}
+	onclick={() => toggle()}
 	class="i-carbon-sun dark:i-carbon-moon text-2xl dark:text-white"></button>
 
 <style>

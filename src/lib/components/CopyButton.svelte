@@ -23,14 +23,17 @@
 	}
 </script>
 
-<div class="flex justify-end">
-	<button
+<aside class="relative flex self-end h-0 w-0">
+  
+  <div class="flex absolute self-end justify-end right-0 -top-4">
+    <button
 		onclick={copy}
-		class="from-primary-800 to-primary-600 hover:from-primary-700 hover:to-primary-500 relative flex h-8 items-center rounded bg-gradient-to-b px-2 dark:text-white/80">
+		class="from-primary-800 to-primary-600 hover:from-primary-700 hover:to-primary-500 relative flex h-8 items-baseline rounded bg-gradient-to-b px-2 dark:text-white/80">
 		<span
-			class:i-carbon-copy={state === "default"}
-			class:i-carbon-checkmark={state === "success"}
-			class:i-carbon-x={state === "error"}></span>
+    class:i-carbon-copy={state === "default"}
+    class:i-carbon-checkmark={state === "success"}
+    class:i-carbon-x={state === "error"}></span>
 		<p>{labels[state]}</p>
 	</button>
 </div>
+</aside>

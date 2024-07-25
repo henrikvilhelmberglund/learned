@@ -3,4 +3,5 @@
 ✘ add darker primary colors (960, 970, 980, 990) @cancelled(23-10-16 16:10)    (can just use /30 etc in colors instead)
 ✔ fix pre/code tags exiting the frame @done(23-10-28 17:53)
 ✔ make dark mode slightly less contrasty (text is a bit too bright now) @done(23-10-28 18:04)
-☐ fix ugliness in responsive (including flex wrapped extra lines)
+✔ fix ugliness in responsive (including flex wrapped extra lines) @done(24-07-25 14:20)
+✔ use Svelte 5 and typescript @done(24-07-25 14:20)
