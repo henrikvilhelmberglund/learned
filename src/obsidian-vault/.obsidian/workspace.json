@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "refactored/2024-07-23.Stubbing and linking packages for easier development.md",
+                "file": "file issues later.md",
                 "mode": "source",
                 "source": true
               }
@@ -191,14 +191,40 @@
             "id": "d2a4ac36ce55d1f4",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.12"
+                "file": "2024-07-25.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "dd45cdc457a0aafe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-07-25.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "eb77d8021dfc4ad5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "refactored/2024-07-25.Typescript generics and indexed access types.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -264,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "refactored/2024-07-23.Stubbing and linking packages for easier development.md",
+                "file": "refactored/2024-07-25.Typescript generics and indexed access types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "refactored/2024-07-23.Stubbing and linking packages for easier development.md",
+                "file": "refactored/2024-07-25.Typescript generics and indexed access types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "refactored/2024-07-23.Stubbing and linking packages for easier development.md"
+                "file": "refactored/2024-07-25.Typescript generics and indexed access types.md"
               }
             }
           }
@@ -326,23 +352,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "20efcb02347cce29",
+  "active": "eb77d8021dfc4ad5",
   "lastOpenFiles": [
+    "2024-07-25.md",
+    "refactored/2024-07-25.Typescript generics and indexed access types.md",
+    "Untitled.md",
+    "file issues later.md",
+    "2023-11-30.md",
+    "2023-11-27.md",
+    "2024-02-01.md",
+    "2024-03-09.md",
+    "2024-04-17.md",
+    "2024-04-22.md",
     "2024-07-17.md",
     "refactored/2024-07-23.Stubbing and linking packages for easier development.md",
     "refactored/2024-07-23.Task restart using runCommands.md",
     "refactored/2024-04-17.microtask.md",
     "refactored/2024-04-22.Typescript Record.md",
-    "2024-04-22.md",
-    "2024-04-17.md",
     "refactored/2023-11-27.React Native (expo) liveshare using tunnel.md",
     "refactored/2023-11-30.has in TailwindUnoCSS.md",
-    "file issues later.md",
     "Untitled 1.md",
-    "2024-03-09.md",
-    "2023-11-30.md",
-    "2024-02-01.md",
-    "2023-11-27.md",
     "refactored/2023-11-27.Array buffer encodingdecoding to strings.md",
     "2023-11-03.md",
     "2023-10-27.md",
@@ -351,9 +380,6 @@
     "2023-11-15.md",
     "refactored/2023-11-15.Function call and bind.md",
     "2023-10-24.md",
-    "2023-10-19.md",
-    "refactored/2023-11-15.Vitest - pass props to render.md",
-    "refactored/2023-11-15.Vitest - test load function data.md",
     "refactored/testing.svx",
     "refactored/2023-10-15/Seriously.svelte",
     "refactored/2023-10-15/Boinger.svelte",
